@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import Caraousel from "../Components/Caraousel.js";
+import CaraouselData from "../Data/CaraouselData.json";
+import '../styles/Home.css';
+import Card from "../Components/Card.js";
 
 function Home() {
+  const { slides } = CaraouselData;
   return (
-    <div>Home Page</div>
-  )
+    <div className="home">
+      <Caraousel data={slides} />
+     <Card/>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

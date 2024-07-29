@@ -1,0 +1,30 @@
+.contactCard-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+.contactCard-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: rgb(239, 248, 239);
+  width: 40%;
+  height: 120px;
+  margin: 2px;
+  padding-left: 10px;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 8px #999;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactCard-container {
+    width: 100%;
+  }
+  .contactCard-container .card {
+    width: auto;
+    display: inherit;
+  }
+}

@@ -1,0 +1,33 @@
+.contactus {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.contactheading {
+  margin: 10px;
+  padding: 10px;
+}
+
+.contactus .card {
+  width: 25em;
+  margin-left: 1em;
+  margin-right: 20em;
+  justify-content: flex-start;
+}
+
+.contactus .form {
+  border-radius: 5px;
+  justify-content: center;
+  margin: 1rem;
+  height: 30em;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactus {
+    display: flex;
+    flex-direction: column;
+  }
+}

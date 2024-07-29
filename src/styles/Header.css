@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  font-weight: lighter;
+  padding-top: auto;
+}
+
+.header-para {
+  width: 30%;
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  display: inline-flex;
+}
+
+.clickLink:hover {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}
